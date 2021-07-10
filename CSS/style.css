@@ -158,7 +158,7 @@ body img {
 
 /* SECTION 3 */
 
-.section-3 {
+#section-3 {
   background: #E0E0E0;
 }
 
@@ -228,11 +228,11 @@ body img {
 
 /* SECTION 4 */
 
-.section-4 {
+#section-4 {
   display: flex;
   justify-content: center;
   padding-top: 3rem;
-  background-image: url(img/bonus-expo/background.svg);
+  background-image: url(../img/background.svg);
 }
 
 .bonus-expo {
@@ -266,7 +266,7 @@ body img {
 
 /* SECTION 5 */
 
-.section-5 {
+#section-5 {
   background-color: #E0E0E0;
   display: flex;
   justify-content: center;
@@ -305,6 +305,8 @@ body img {
   justify-content: center;
   bottom: 3rem;
 }
+
+/* SECTION 7 */
 
 #section-7 {
   background-color: #E0E0E0;
