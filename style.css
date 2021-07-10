@@ -1,0 +1,456 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #001912;
+}
+
+body img {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* HEADER */
+
+.banner-mentoria {
+  background: #00E1BE;
+  height: 4.5rem;
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.row {
+  display: flex;
+}
+
+.header-column-left {
+  flex: 50%;
+  box-sizing: content-box;  text-align: end;
+}
+
+.header-column-right {
+  flex: 50%;
+  box-sizing: content-box;
+  position: relative;
+  top: -12rem;
+  width: 100%;
+}
+
+.mentoria-smartmoney-logo {
+  position: relative;
+  width: fit-content;
+  top: -3.5rem;
+}
+
+.text-below-SM {
+  position: relative;
+  right: -2rem;
+}
+
+.subscription-button {
+  background: #00E1BE;
+  padding:0 4%;
+  border-radius: 20px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  width: auto;
+
+  position: relative;
+  right: 2rem;
+
+  cursor: pointer;
+  border: none;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+}
+
+/* SECTION 1 */
+
+#section-1 {
+  background:#001E1F;
+}
+
+.vou-revelar-mesmo-que {
+  display: flex;
+  flex-direction: column;
+}
+
+.vou-revelar {
+  margin: 5% 8%;
+}
+
+.mesmo-que-spotlight {
+  width: 30%;
+  height: auto;
+  margin: 1% auto;
+}
+
+.mesmo-que-list {
+  margin: 3% 10%;
+}
+
+.banner-with-text {
+  background: #036060;
+  width: auto;
+
+  display: flex;
+  align-items: center;
+}
+
+.text-banner {
+  margin: 20px;
+  width: 100%;
+  padding: 3% 9%;
+}
+
+.a-verdade-eh {
+  display: flex;
+  justify-content: center;
+  margin: 3% 10%;
+}
+
+/* SECTION 2 */
+
+.tudo-que-vai-aprender {
+  margin: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.o-que-aprender-logo {
+  display: flex;
+  justify-content:center;
+  margin: 3rem 1rem;
+}
+
+.tudo-que-vai-aprender-space {
+  margin-right: 2rem;
+}
+
+.que-aprender-columns {
+  margin: 2rem 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  column-count: auto;
+  column-gap: 2rem;
+  column-rule: 2px solid #00E1BE;
+}
+
+.que-aprender-columns img {
+  margin-top: 2rem;
+}
+
+.mentores-apresentation {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+/* SECTION 3 */
+
+.section-3 {
+  background: #E0E0E0;
+}
+
+.programa-mentoria-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: center;
+  margin: 5rem auto;
+}
+
+.diagram {
+  display: flex;
+  justify-content: center;
+  margin: 0 4rem;
+}
+
+.programa-diagram {
+  display: flex;
+  position: absolute;
+  padding-top: 0 3rem;
+  margin:2rem 4rem;
+
+  column-gap: 11rem;
+}
+
+.programa-diagram img {
+  background-color: #E0E0E0;
+  width: fit-content;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+
+.programa-diagram img:nth-child(2) {
+  margin-bottom: 3rem;
+}
+
+.text-column-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #E0E0E0;
+}
+
+.text-column-center {
+  margin-top: 3rem;
+  margin-right: -3rem;
+  height: 80%;
+}
+
+.lines {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 14rem;
+  margin-bottom: 5rem;
+}
+
+.lines-border {
+  border: 4px solid #00E1BE ;
+  height: 31rem;
+  width: 14rem;
+}
+
+
+/* SECTION 4 */
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  background-image: url(img/bonus-expo/background.svg);
+}
+
+.bonus-expo {
+  margin: 0 7rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 2rem;
+}
+
+.bonus-columns {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 4rem;
+}
+
+.column {
+  display: flex;
+  column-gap: 2rem;
+  flex-wrap: wrap;
+  width: fit-content;
+}
+
+.horizontal-line {
+  padding-bottom: 10px;
+  max-width: fit-content;
+  height: fit-content;
+}
+
+/* SECTION 5 */
+
+.section-5 {
+  background-color: #E0E0E0;
+  display: flex;
+  justify-content: center;
+}
+
+.line-divisor {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #001912;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin: 1% 5%;
+}
+
+/* SECTION 6 */
+
+#section-6 {
+  background-color: #001E1F;
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-position {
+  position: relative;
+  top: 5rem;
+}
+
+.photo-profile {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  bottom: 3rem;
+}
+
+#section-7 {
+  background-color: #E0E0E0;
+}
+
+.about-joaokepler {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  padding-bottom: 4rem;
+  margin: 0 3%;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1440px) {
+  .lines {
+    column-gap: 12rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .diagram{
+    margin: 0 3rem;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .column img {
+    margin-bottom: 3rem;
+  }
+
+  .column figure {
+    display: none;
+  }
+
+  .horizontal-line {
+    display: none;
+  }
+
+  .lines {
+    column-gap: 8rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .header-columns {
+    padding-left: 3rem;
+  }
+
+  .banner-mentoria {
+    height: 4rem;
+  }
+
+  .header-column-right {
+    top: -10rem;
+  }
+
+  .text-below-SM {
+    position: initial;
+  }
+
+  .o-que-aprender-logo figure {
+    display: flex;
+    width: fit-content;    margin-right: 2rem;
+  }
+
+  .column figure {
+    display: none;
+  }
+
+  .horizontal-line {
+    display: none;
+  }
+
+  .programa-diagram {
+    display: flex;
+    flex-direction: column;
+    margin: 0 4rem;
+  }
+
+  .text-column-position {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .lines-border {
+    width: 70%;
+    height: 50%;
+  }
+
+  .lateral-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .text-column-center {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-left: 30%;
+    width: 40%;
+    height: 70%;
+  }
+ 
+  .lines {
+    flex-direction: column;
+  }
+
+  .lines-border {
+    border:4px solid #00E1BE;
+    width: 45rem;
+    height: 10rem;
+    margin-bottom: 4rem;
+  }
+
+}
+
+
+@media screen and (max-width: 650px) {
+  .banner-mentoria {
+    margin-top: 3rem;
+    height: 3rem;
+  }
+  .header-column-right {
+    top: -5rem;
+  }
+
+  .header-column-left {
+    margin-top: 1rem;
+  }
+  
+  .o-que-aprender-logo figure {
+    display: flex;
+    width: max-content;
+  }
+
+  .lines-border {
+    width: 30rem;
+  }
+}
